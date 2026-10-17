@@ -1,0 +1,10 @@
+{
+  "status": "complete",
+  "completed_at": "2026-10-17T04:25:11.195653+00:00",
+  "artifacts_sha256": {
+    "research.json": "95e256ac9dd290e4b4a1e22f377cdc35b96b790cf81764d6b68eaa88b76b5326",
+    "validation.json": "b819347122ca4f983454022c3fc090a1c57ca565ec69b71cba5c061cfe865e5a",
+    "report.html": "a19faa1ec11b86c318b97a6d0afadc4f13c84a033e156a7c5936151a37345dd3",
+    "quotes.csv": "e9ef58dd619afceb68d148daf364b2999c1adc620ea554a8c46bd6e4bd467976"
+  }
+}

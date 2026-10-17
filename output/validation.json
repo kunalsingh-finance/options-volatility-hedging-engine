@@ -1,0 +1,498 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "name": "BTC SSVI optimizer",
+      "passed": true,
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "BTC Heston optimizer",
+      "passed": true,
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "BTC butterfly sufficient condition",
+      "passed": true,
+      "value": 3.2167515785460212,
+      "limit": 0
+    },
+    {
+      "name": "BTC wing sufficient condition",
+      "passed": true,
+      "value": 3.0499455557322177,
+      "limit": 0
+    },
+    {
+      "name": "BTC nonnegative density grid",
+      "passed": true,
+      "value": 0.25102696174363615,
+      "limit": -1e-09
+    },
+    {
+      "name": "BTC calendar grid",
+      "passed": true,
+      "value": 0,
+      "limit": 0
+    },
+    {
+      "name": "BTC monotone total variance",
+      "passed": true,
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "BTC holdout is present",
+      "passed": true,
+      "value": 12,
+      "limit": 3
+    },
+    {
+      "name": "BTC fine-quadrature price stability",
+      "passed": true,
+      "value": 3.704184669791223e-08,
+      "limit": 5e-06
+    },
+    {
+      "name": "BTC model price bounds",
+      "passed": true,
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "BTC distinct source instruments",
+      "passed": true,
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "ETH SSVI optimizer",
+      "passed": true,
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "ETH Heston optimizer",
+      "passed": true,
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "ETH butterfly sufficient condition",
+      "passed": true,
+      "value": 3.200096792144951,
+      "limit": 0
+    },
+    {
+      "name": "ETH wing sufficient condition",
+      "passed": true,
+      "value": 3.059945151728149,
+      "limit": 0
+    },
+    {
+      "name": "ETH nonnegative density grid",
+      "passed": true,
+      "value": 0.2513611812976735,
+      "limit": -1e-09
+    },
+    {
+      "name": "ETH calendar grid",
+      "passed": true,
+      "value": 0,
+      "limit": 0
+    },
+    {
+      "name": "ETH monotone total variance",
+      "passed": true,
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "ETH holdout is present",
+      "passed": true,
+      "value": 12,
+      "limit": 3
+    },
+    {
+      "name": "ETH fine-quadrature price stability",
+      "passed": true,
+      "value": 3.702660675395982e-08,
+      "limit": 5e-06
+    },
+    {
+      "name": "ETH model price bounds",
+      "passed": true,
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "ETH distinct source instruments",
+      "passed": true,
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "hedge cases complete",
+      "passed": true,
+      "value": 24,
+      "limit": 24
+    },
+    {
+      "name": "cases identities complete and unique",
+      "passed": true,
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "sample_ledgers identities complete and unique",
+      "passed": true,
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "distribution_samples identities complete and unique",
+      "passed": true,
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "base / black_scholes / every_step self-financing accounting",
+      "passed": true,
+      "value": 1.8474111129762605e-13,
+      "limit": 1e-08
+    },
+    {
+      "name": "base / black_scholes / every_step nonnegative costs",
+      "passed": true,
+      "value": 0.20522816055052748,
+      "limit": 0
+    },
+    {
+      "name": "base / black_scholes / every_6_steps self-financing accounting",
+      "passed": true,
+      "value": 5.950795411990839e-14,
+      "limit": 1e-08
+    },
+    {
+      "name": "base / black_scholes / every_6_steps nonnegative costs",
+      "passed": true,
+      "value": 0.11432965972981864,
+      "limit": 0
+    },
+    {
+      "name": "base / black_scholes / delta_band self-financing accounting",
+      "passed": true,
+      "value": 4.8433479449272454e-14,
+      "limit": 1e-08
+    },
+    {
+      "name": "base / black_scholes / delta_band nonnegative costs",
+      "passed": true,
+      "value": 0.15725874431254064,
+      "limit": 0
+    },
+    {
+      "name": "base / heston / every_step self-financing accounting",
+      "passed": true,
+      "value": 1.410260797030105e-13,
+      "limit": 1e-08
+    },
+    {
+      "name": "base / heston / every_step nonnegative costs",
+      "passed": true,
+      "value": 0.222772582309834,
+      "limit": 0
+    },
+    {
+      "name": "base / heston / every_6_steps self-financing accounting",
+      "passed": true,
+      "value": 5.684341886080802e-14,
+      "limit": 1e-08
+    },
+    {
+      "name": "base / heston / every_6_steps nonnegative costs",
+      "passed": true,
+      "value": 0.12229342940206062,
+      "limit": 0
+    },
+    {
+      "name": "base / heston / delta_band self-financing accounting",
+      "passed": true,
+      "value": 7.271960811294775e-14,
+      "limit": 1e-08
+    },
+    {
+      "name": "base / heston / delta_band nonnegative costs",
+      "passed": true,
+      "value": 0.16953812347608238,
+      "limit": 0
+    },
+    {
+      "name": "high_cost / black_scholes / every_step self-financing accounting",
+      "passed": true,
+      "value": 1.5143442055887135e-13,
+      "limit": 1e-08
+    },
+    {
+      "name": "high_cost / black_scholes / every_step nonnegative costs",
+      "passed": true,
+      "value": 0.8209126422021099,
+      "limit": 0
+    },
+    {
+      "name": "high_cost / black_scholes / every_6_steps self-financing accounting",
+      "passed": true,
+      "value": 7.738254481637341e-14,
+      "limit": 1e-08
+    },
+    {
+      "name": "high_cost / black_scholes / every_6_steps nonnegative costs",
+      "passed": true,
+      "value": 0.45731863891927454,
+      "limit": 0
+    },
+    {
+      "name": "high_cost / black_scholes / delta_band self-financing accounting",
+      "passed": true,
+      "value": 8.08242361927114e-14,
+      "limit": 1e-08
+    },
+    {
+      "name": "high_cost / black_scholes / delta_band nonnegative costs",
+      "passed": true,
+      "value": 0.6290349772501626,
+      "limit": 0
+    },
+    {
+      "name": "high_cost / heston / every_step self-financing accounting",
+      "passed": true,
+      "value": 1.5987211554602254e-13,
+      "limit": 1e-08
+    },
+    {
+      "name": "high_cost / heston / every_step nonnegative costs",
+      "passed": true,
+      "value": 0.891090329239336,
+      "limit": 0
+    },
+    {
+      "name": "high_cost / heston / every_6_steps self-financing accounting",
+      "passed": true,
+      "value": 6.394884621840902e-14,
+      "limit": 1e-08
+    },
+    {
+      "name": "high_cost / heston / every_6_steps nonnegative costs",
+      "passed": true,
+      "value": 0.48917371760824246,
+      "limit": 0
+    },
+    {
+      "name": "high_cost / heston / delta_band self-financing accounting",
+      "passed": true,
+      "value": 6.705747068735946e-14,
+      "limit": 1e-08
+    },
+    {
+      "name": "high_cost / heston / delta_band nonnegative costs",
+      "passed": true,
+      "value": 0.6781524939043295,
+      "limit": 0
+    },
+    {
+      "name": "volatility_stress / black_scholes / every_step self-financing accounting",
+      "passed": true,
+      "value": 1.4832579608992091e-13,
+      "limit": 1e-08
+    },
+    {
+      "name": "volatility_stress / black_scholes / every_step nonnegative costs",
+      "passed": true,
+      "value": 0.25409023123881486,
+      "limit": 0
+    },
+    {
+      "name": "volatility_stress / black_scholes / every_6_steps self-financing accounting",
+      "passed": true,
+      "value": 5.706546346573305e-14,
+      "limit": 1e-08
+    },
+    {
+      "name": "volatility_stress / black_scholes / every_6_steps nonnegative costs",
+      "passed": true,
+      "value": 0.1324672568582368,
+      "limit": 0
+    },
+    {
+      "name": "volatility_stress / black_scholes / delta_band self-financing accounting",
+      "passed": true,
+      "value": 6.994405055138486e-14,
+      "limit": 1e-08
+    },
+    {
+      "name": "volatility_stress / black_scholes / delta_band nonnegative costs",
+      "passed": true,
+      "value": 0.20559938230012612,
+      "limit": 0
+    },
+    {
+      "name": "volatility_stress / heston / every_step self-financing accounting",
+      "passed": true,
+      "value": 1.7053025658242404e-13,
+      "limit": 1e-08
+    },
+    {
+      "name": "volatility_stress / heston / every_step nonnegative costs",
+      "passed": true,
+      "value": 0.24326172222451836,
+      "limit": 0
+    },
+    {
+      "name": "volatility_stress / heston / every_6_steps self-financing accounting",
+      "passed": true,
+      "value": 7.349676423018536e-14,
+      "limit": 1e-08
+    },
+    {
+      "name": "volatility_stress / heston / every_6_steps nonnegative costs",
+      "passed": true,
+      "value": 0.12872985915298513,
+      "limit": 0
+    },
+    {
+      "name": "volatility_stress / heston / delta_band self-financing accounting",
+      "passed": true,
+      "value": 9.414691248821327e-14,
+      "limit": 1e-08
+    },
+    {
+      "name": "volatility_stress / heston / delta_band nonnegative costs",
+      "passed": true,
+      "value": 0.18644086951780886,
+      "limit": 0
+    },
+    {
+      "name": "spot_jump / black_scholes / every_step self-financing accounting",
+      "passed": true,
+      "value": 1.212363542890671e-13,
+      "limit": 1e-08
+    },
+    {
+      "name": "spot_jump / black_scholes / every_step nonnegative costs",
+      "passed": true,
+      "value": 0.1538461303851243,
+      "limit": 0
+    },
+    {
+      "name": "spot_jump / black_scholes / every_6_steps self-financing accounting",
+      "passed": true,
+      "value": 5.3290705182007514e-14,
+      "limit": 1e-08
+    },
+    {
+      "name": "spot_jump / black_scholes / every_6_steps nonnegative costs",
+      "passed": true,
+      "value": 0.08970884014023413,
+      "limit": 0
+    },
+    {
+      "name": "spot_jump / black_scholes / delta_band self-financing accounting",
+      "passed": true,
+      "value": 6.039613253960852e-14,
+      "limit": 1e-08
+    },
+    {
+      "name": "spot_jump / black_scholes / delta_band nonnegative costs",
+      "passed": true,
+      "value": 0.11790986835298979,
+      "limit": 0
+    },
+    {
+      "name": "spot_jump / heston / every_step self-financing accounting",
+      "passed": true,
+      "value": 1.0391687510491465e-13,
+      "limit": 1e-08
+    },
+    {
+      "name": "spot_jump / heston / every_step nonnegative costs",
+      "passed": true,
+      "value": 0.16580235748341365,
+      "limit": 0
+    },
+    {
+      "name": "spot_jump / heston / every_6_steps self-financing accounting",
+      "passed": true,
+      "value": 5.240252676230739e-14,
+      "limit": 1e-08
+    },
+    {
+      "name": "spot_jump / heston / every_6_steps nonnegative costs",
+      "passed": true,
+      "value": 0.09566109924562241,
+      "limit": 0
+    },
+    {
+      "name": "spot_jump / heston / delta_band self-financing accounting",
+      "passed": true,
+      "value": 6.128431095930864e-14,
+      "limit": 1e-08
+    },
+    {
+      "name": "spot_jump / heston / delta_band nonnegative costs",
+      "passed": true,
+      "value": 0.12627829555525882,
+      "limit": 0
+    },
+    {
+      "name": "independent saved cash-ledger reconstruction",
+      "passed": true,
+      "value": 9.947598300641403e-14,
+      "limit": 1e-08
+    },
+    {
+      "name": "independent Greek attribution reconstruction",
+      "passed": true,
+      "value": 3.1086244689504383e-15,
+      "limit": 1e-08
+    },
+    {
+      "name": "saved distributions reconcile to summaries",
+      "passed": true,
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "paired comparison identities complete and unique",
+      "passed": true,
+      "value": null,
+      "limit": null
+    },
+    {
+      "name": "paired uncertainty uses common-path differences",
+      "passed": true,
+      "value": 0.0,
+      "limit": 1e-10
+    },
+    {
+      "name": "hedging delta quadrature tolerance",
+      "passed": true,
+      "value": 0.0001998886604885064,
+      "limit": 0.0002
+    },
+    {
+      "name": "Monte Carlo price versus analytic at 120 steps",
+      "passed": true,
+      "value": 0.2747541598275036,
+      "limit": 4
+    },
+    {
+      "name": "Monte Carlo price versus analytic at 240 steps",
+      "passed": true,
+      "value": 0.3378062309975106,
+      "limit": 4
+    }
+  ],
+  "interpretation": "Numerical/accounting consistency under stated conventions. Does not establish market predictive accuracy, historical hedge performance, or regulatory approval."
+}
